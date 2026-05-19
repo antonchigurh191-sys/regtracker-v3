@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #050816;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  padding: 24px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #11172c;
+  border-radius: 24px;
+  padding: 24px;
+}
+
+.team-country {
+  color: #9aa4c0;
+  margin-bottom: 10px;
+}
+
+.team-name {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.team-count {
+  font-size: 22px;
+}
+
+.progress {
+  width: 100%;
+  height: 12px;
+  background: #1b233d;
+  border-radius: 999px;
+  margin-top: 16px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #6b7cff, #8d67ff);
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.counter-value {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.btn {
+  width: 72px;
+  height: 72px;
+  border-radius: 20px;
+  border: none;
+  background: #1a223c;
+  color: white;
+  font-size: 32px;
+  cursor: pointer;
+}

@@ -6,6 +6,6 @@ export default defineConfig({
   server: {
     host: '0.0.0.0',
     port: 8080,
-    allowedHosts: ['carefree-embrace-production-f434.up.railway.app']
+    allowedHosts: ['.railway.app']
   }
 })
