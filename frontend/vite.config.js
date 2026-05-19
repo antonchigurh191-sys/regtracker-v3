@@ -5,6 +5,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     host: '0.0.0.0',
-    allowedHosts: ['all']
+    port: 8080,
+    allowedHosts: ['carefree-embrace-production-f434.up.railway.app']
   }
 })
